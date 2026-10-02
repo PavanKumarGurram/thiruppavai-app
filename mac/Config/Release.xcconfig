@@ -1,0 +1,11 @@
+#include "Base.xcconfig"
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+SWIFT_OPTIMIZATION_LEVEL = -O
+ONLY_ACTIVE_ARCH = NO
+ARCHS = $(ARCHS_STANDARD)
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+DEAD_CODE_STRIPPING = YES
+// Optional local overrides; never commit certificates or credentials.
+#include? "Signing.local.xcconfig"

@@ -1,0 +1,7 @@
+// Copy to Signing.local.xcconfig only when preparing a distribution release.
+// Choose a bundle identifier you control. Export reading backup before changing it.
+PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.Thiruppavai
+DEVELOPMENT_TEAM = YOURTEAMID
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = Developer ID Application: Your Name (YOURTEAMID)
+OTHER_CODE_SIGN_FLAGS = --timestamp
