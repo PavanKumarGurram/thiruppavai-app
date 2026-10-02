@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		F60AE980246809C9B028DBAF = {
+			isa = PBXBuildFile;
+			fileRef = 570FEBF8AF4CAFC1437DD293;
+		};
+		464B6A7718DDF4AA1D6A57AA = {
+			isa = PBXBuildFile;
+			fileRef = 1752EFF4389F8BB6CCAF08FD;
+		};
+		5675FB62B6F6AE77A5E8BB88 = {
+			isa = PBXBuildFile;
+			fileRef = DB2E150F771C90FF0B020C0D;
+		};
+		87B79BBFBD3638A1FB11DD54 = {
+			isa = PBXBuildFile;
+			fileRef = 843FDD7621072E4717816094;
+		};
+		772AD1FF94486C04A01C21A4 = {
+			isa = PBXBuildFile;
+			fileRef = 6BF121F29C57FFBFD5BA5111;
+		};
+		76858545ADD46649F94969B4 = {
+			isa = PBXBuildFile;
+			fileRef = 7F7928BED2A33E097B6C670B;
+		};
+		303F0FD7BBE7452F8EE9A2AB = {
+			isa = PBXBuildFile;
+			fileRef = E13A7BCEBD0A606AF9D5EE82;
+		};
+		38E50665737EAF6527182CDA = {
+			isa = PBXBuildFile;
+			fileRef = 6435331998A81A3F847B02D6;
+		};
+		8C3B22DAC02AD20CEA288A88 = {
+			isa = PBXBuildFile;
+			fileRef = 2071B68191AF4D020F1C271A;
+		};
+		51C9263720AF6A5F58B7F70B = {
+			isa = PBXBuildFile;
+			fileRef = E8E32DEBCF228C8194DBD6ED;
+		};
+		2EA332AD9DDF4A26C8C6C861 = {
+			isa = PBXBuildFile;
+			fileRef = 6403CF935FAE2E332316DDCD;
+		};
+		1F5E48BAD47F7E808F4A464A = {
+			isa = PBXBuildFile;
+			fileRef = 4A8520CEE16E5CED24153FA3;
+		};
+		7102647AF8E76D6A515A2235 = {
+			isa = PBXBuildFile;
+			fileRef = E3912334086CD2BEF1E8FE3A;
+		};
+		263C69C3E6F4F74AF0767E63 = {
+			isa = PBXBuildFile;
+			fileRef = 9A3EFC133977595558D0EB9E;
+		};
+		F9C36E68CB3E0ACF8CB3C77F = {
+			isa = PBXBuildFile;
+			fileRef = FECF192806F0834D986BC4EB;
+		};
+		20748E25B99AF357B20B8AFC = {
+			isa = PBXBuildFile;
+			fileRef = 2624264B88E7F03C0C2A1F4C;
+		};
+		9546618F697DE646C26E1A7C = {
+			isa = PBXBuildFile;
+			fileRef = BD262FF57DFB276303489C8C;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570FEBF8AF4CAFC1437DD293 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/AppStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		1752EFF4389F8BB6CCAF08FD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/AudioController.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		DB2E150F771C90FF0B020C0D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/DesignSystem.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		843FDD7621072E4717816094 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/HomeView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6BF121F29C57FFBFD5BA5111 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/ReaderView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7F7928BED2A33E097B6C670B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/RootView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E13A7BCEBD0A606AF9D5EE82 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/SettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6435331998A81A3F847B02D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = App/ThiruppavaiApp.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		2071B68191AF4D020F1C271A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/DailyVerse.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E8E32DEBCF228C8194DBD6ED = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/Library.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6403CF935FAE2E332316DDCD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/Preferences.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		4A8520CEE16E5CED24153FA3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/Verse.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E3912334086CD2BEF1E8FE3A = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = Core/Resources/verses.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		9A3EFC133977595558D0EB9E = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Resources/NotoSerifTamil-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		FECF192806F0834D986BC4EB = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Resources/Notices.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		2624264B88E7F03C0C2A1F4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = Resources/PrivacyInfo.xcprivacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		BD262FF57DFB276303489C8C = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Resources/Assets.xcassets;
+			sourceTree = SOURCE_ROOT;
+		};
+		21BD4D350E4AAAA8AD41C07B = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Config/Debug.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		B10D2FF1AC314396693B1643 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Config/Release.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		C69F87003F3203642E175B39 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Config/Base.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		0FCC6CF79A39C95751124496 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Config/Info.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+		F67BD63371966B668B54D679 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Config/Thiruppavai.entitlements;
+			sourceTree = SOURCE_ROOT;
+		};
+		654D1A896A8A28F61EE9A766 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Config/Signing.local.xcconfig.example;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B8CC7F4422C7187E089A1A6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Package.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		585F1EFB2161BFF7CF255074 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = README.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		0D4BF9220F63A1106C9AC8E3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Docs/RELEASING.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		BD5F58E5A2441C906566DC57 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Docs/TESTING.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE238607DCA7E41406EFEA05 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Tests/CoreTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		9362398D16329DFA05D47263 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Thiruppavai.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1DC901776ACF2FBC70B8D2 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8347952F945859F0B674C6F7 = {
+			isa = PBXGroup;
+			children = (
+				570FEBF8AF4CAFC1437DD293,
+				1752EFF4389F8BB6CCAF08FD,
+				DB2E150F771C90FF0B020C0D,
+				843FDD7621072E4717816094,
+				6BF121F29C57FFBFD5BA5111,
+				7F7928BED2A33E097B6C670B,
+				E13A7BCEBD0A606AF9D5EE82,
+				6435331998A81A3F847B02D6,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		654A16EE7450A9D029268FB7 = {
+			isa = PBXGroup;
+			children = (
+				2071B68191AF4D020F1C271A,
+				E8E32DEBCF228C8194DBD6ED,
+				6403CF935FAE2E332316DDCD,
+				4A8520CEE16E5CED24153FA3,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C4C0BABB410D72B5AEC2AA77 = {
+			isa = PBXGroup;
+			children = (
+				E3912334086CD2BEF1E8FE3A,
+				9A3EFC133977595558D0EB9E,
+				FECF192806F0834D986BC4EB,
+				2624264B88E7F03C0C2A1F4C,
+				BD262FF57DFB276303489C8C,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7CE7A5C2DC32BF110D85C70 = {
+			isa = PBXGroup;
+			children = (
+				21BD4D350E4AAAA8AD41C07B,
+				B10D2FF1AC314396693B1643,
+				C69F87003F3203642E175B39,
+				0FCC6CF79A39C95751124496,
+				F67BD63371966B668B54D679,
+				654D1A896A8A28F61EE9A766,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		E3ACB4AE0CB1A48FE82E4A5E = {
+			isa = PBXGroup;
+			children = (
+				EE238607DCA7E41406EFEA05,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		07AE665580E9E41838A8CB9E = {
+			isa = PBXGroup;
+			children = (
+				7B8CC7F4422C7187E089A1A6,
+				585F1EFB2161BFF7CF255074,
+				0D4BF9220F63A1106C9AC8E3,
+				BD5F58E5A2441C906566DC57,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		B779BE5B03AB5F89266287A9 = {
+			isa = PBXGroup;
+			children = (
+				9362398D16329DFA05D47263,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D308F00015CC4DFA3AFEB5 = {
+			isa = PBXGroup;
+			children = (
+				8347952F945859F0B674C6F7,
+				654A16EE7450A9D029268FB7,
+				C4C0BABB410D72B5AEC2AA77,
+				C7CE7A5C2DC32BF110D85C70,
+				E3ACB4AE0CB1A48FE82E4A5E,
+				07AE665580E9E41838A8CB9E,
+				B779BE5B03AB5F89266287A9,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393BD1FD9D10216DCDD243D1 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD72ED610941C74738A5389F;
+			buildPhases = (
+				83E95D26CEA03F4FBE4F35F1,
+				EF1DC901776ACF2FBC70B8D2,
+				585175B33FE59D4344912151,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = Thiruppavai;
+			productName = Thiruppavai;
+			productReference = 9362398D16329DFA05D47263;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E275AEC13E60B49D209E19D2 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					393BD1FD9D10216DCDD243D1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4F4FBF12E85BC3F71B7A087D;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D308F00015CC4DFA3AFEB5;
+			productRefGroup = B779BE5B03AB5F89266287A9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393BD1FD9D10216DCDD243D1,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585175B33FE59D4344912151 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7102647AF8E76D6A515A2235,
+				263C69C3E6F4F74AF0767E63,
+				F9C36E68CB3E0ACF8CB3C77F,
+				20748E25B99AF357B20B8AFC,
+				9546618F697DE646C26E1A7C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E95D26CEA03F4FBE4F35F1 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60AE980246809C9B028DBAF,
+				464B6A7718DDF4AA1D6A57AA,
+				5675FB62B6F6AE77A5E8BB88,
+				87B79BBFBD3638A1FB11DD54,
+				772AD1FF94486C04A01C21A4,
+				76858545ADD46649F94969B4,
+				303F0FD7BBE7452F8EE9A2AB,
+				38E50665737EAF6527182CDA,
+				8C3B22DAC02AD20CEA288A88,
+				51C9263720AF6A5F58B7F70B,
+				2EA332AD9DDF4A26C8C6C861,
+				1F5E48BAD47F7E808F4A464A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		345B5FD70D942C13D5697FFA = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			};
+			name = Debug;
+		};
+		45016C29B16C47A956A00CA3 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BD4D350E4AAAA8AD41C07B;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				COMBINE_HIDPI_IMAGES = YES;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		743F0DB94CC84A2D76B902D7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			};
+			name = Release;
+		};
+		190BE800C6466F9E5450EB5B = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10D2FF1AC314396693B1643;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				COMBINE_HIDPI_IMAGES = YES;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4FBF12E85BC3F71B7A087D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345B5FD70D942C13D5697FFA,
+				743F0DB94CC84A2D76B902D7,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD72ED610941C74738A5389F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45016C29B16C47A956A00CA3,
+				190BE800C6466F9E5450EB5B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E275AEC13E60B49D209E19D2;
+}
