@@ -1,0 +1,25 @@
+name: Apple source checks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Core tests
+        run: xcrun swift test
+      - name: iOS Simulator compilation
+        run: |
+          xcodebuild -project Thiruppavai.xcodeproj -scheme Thiruppavai-iOS \
+            -configuration Debug -sdk iphonesimulator -destination "generic/platform=iOS Simulator" \
+            -derivedDataPath build/iOS CODE_SIGNING_ALLOWED=NO build
+      - name: macOS compilation
+        run: |
+          xcodebuild -project Thiruppavai.xcodeproj -scheme Thiruppavai-Mac \
+            -configuration Debug -destination "platform=macOS" -derivedDataPath build/Mac \
+            CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY=- DEVELOPMENT_TEAM="" build

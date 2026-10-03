@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		A986446408669BB5E8CD2547 = {
+			isa = PBXBuildFile;
+			fileRef = A300FB26D805454F5F0025AE /* Shared/Core/CompanionContent.swift */;
+		};
+		EF0545E442FFD8E7CA360B02 = {
+			isa = PBXBuildFile;
+			fileRef = 27CC6E1EFBC2B0A2CDCB5D13 /* Shared/Core/DailyVerse.swift */;
+		};
+		0C0A362CB7B0731E3A2BF487 = {
+			isa = PBXBuildFile;
+			fileRef = F1B1E1C637B9B7E2BAE27ACD /* Shared/Core/Library.swift */;
+		};
+		134614FEF63D0AEF4985B874 = {
+			isa = PBXBuildFile;
+			fileRef = 7B9748CC64BE580627756170 /* Shared/Core/Preferences.swift */;
+		};
+		6A5E55E4C0813B6C180496AE = {
+			isa = PBXBuildFile;
+			fileRef = 38196B2A1E6FF2A4EB492BB9 /* Shared/Core/Verse.swift */;
+		};
+		7CA7D9522CF42912953147F6 = {
+			isa = PBXBuildFile;
+			fileRef = DC52C5A7F42ADDE560CEFAE2 /* Shared/Playback/AudioController.swift */;
+		};
+		17D2E2B74E70F82D7211DD56 = {
+			isa = PBXBuildFile;
+			fileRef = E34481357B45DDAE7D06EFA7 /* Shared/State/AppStore.swift */;
+		};
+		5D014B84B23098BF402B6966 = {
+			isa = PBXBuildFile;
+			fileRef = B051F3F84B72F3403DE01FC4 /* Shared/UI/AndalStoryView.swift */;
+		};
+		D3A38DDBC7083076DA43C6E9 = {
+			isa = PBXBuildFile;
+			fileRef = 57613E5A79DE54BC962C56C0 /* Shared/UI/DesignSystem.swift */;
+		};
+		43C48C921FCA28F0336B1C1E = {
+			isa = PBXBuildFile;
+			fileRef = 6CC38F5A887BE05A042370F0 /* Shared/UI/PasuramReaderContent.swift */;
+		};
+		9955C07AB0E2042E49B985F6 = {
+			isa = PBXBuildFile;
+			fileRef = DA98DD150DEA45CF7B0FFD3A /* Shared/UI/ReadingGuideView.swift */;
+		};
+		84DC0B1162F67A92C8BB5593 = {
+			isa = PBXBuildFile;
+			fileRef = E076C4F97B4463888572A0E9 /* Shared/UI/ReadingSections.swift */;
+		};
+		FDF5571C2E625FFD97B60930 = {
+			isa = PBXBuildFile;
+			fileRef = BBFCF62006A0581D298FFA89 /* Shared/UI/YouTubePlayerView.swift */;
+		};
+		BE7BD9128E35E3345892001B = {
+			isa = PBXBuildFile;
+			fileRef = 229CD54D4B877657A525F8FF /* iOS/App/MobileHomeView.swift */;
+		};
+		F2476955C8BB861C8BDEC818 = {
+			isa = PBXBuildFile;
+			fileRef = CB16288E3DEA9006763C5C0A /* iOS/App/MobileReaderView.swift */;
+		};
+		472853D84BF73A76656C01F6 = {
+			isa = PBXBuildFile;
+			fileRef = 6F84BE034519632A2E1B4C62 /* iOS/App/MobileRootView.swift */;
+		};
+		ADFFD4300A69F81D4DBEDD2B = {
+			isa = PBXBuildFile;
+			fileRef = 8CCCA61B38612821FF53CB46 /* iOS/App/MobileSettingsView.swift */;
+		};
+		23BE5D1453EBA0FD3F681956 = {
+			isa = PBXBuildFile;
+			fileRef = 99DD88982E5DD4F6A85E6037 /* iOS/App/ThiruppavaiIOSApp.swift */;
+		};
+		2FD7B7125479F515D79FAF27 = {
+			isa = PBXBuildFile;
+			fileRef = 9A775412527860FD55A99660 /* Shared/Core/Resources/verses.json */;
+		};
+		15B201A88CCDA1E1B8A41F10 = {
+			isa = PBXBuildFile;
+			fileRef = 5F2EB953A56B2DEE667C0F76 /* Shared/Core/Resources/readings.json */;
+		};
+		EA723B97CBA10FB8235B8EF0 = {
+			isa = PBXBuildFile;
+			fileRef = 1FA6C0B19EA11A79E8C5FE56 /* Shared/Core/Resources/recordings.json */;
+		};
+		911A63073CC9ACF3BAADF5A6 = {
+			isa = PBXBuildFile;
+			fileRef = F57E509CFC083F09C3D16BC3 /* Shared/Core/Resources/story.json */;
+		};
+		B5B7D62140AD1E62D519610C = {
+			isa = PBXBuildFile;
+			fileRef = 4A119E7290F05010D1541422 /* Shared/Resources/NotoSerifTamil-Regular.ttf */;
+		};
+		87E0CBB5EC11A9BBA285D903 = {
+			isa = PBXBuildFile;
+			fileRef = A92EB27B33F407075A83B2DC /* Shared/Resources/NotoSerifTelugu-Regular.ttf */;
+		};
+		841FE150D396296EF59E85B1 = {
+			isa = PBXBuildFile;
+			fileRef = EB847464324F2E625C9FB6F3 /* Shared/Resources/NotoSerifKannada-Regular.ttf */;
+		};
+		F41531325C51B0CBA44AA53F = {
+			isa = PBXBuildFile;
+			fileRef = 46ACF612AF697842F3A743E7 /* Shared/Resources/NotoSerifMalayalam-Regular.ttf */;
+		};
+		EABB56A61B1D7F40B83D4348 = {
+			isa = PBXBuildFile;
+			fileRef = AFA05D381B69B5DF03A392FA /* Shared/Resources/NotoSerifDevanagari-Regular.ttf */;
+		};
+		49A43062077CE63AED51C66D = {
+			isa = PBXBuildFile;
+			fileRef = 83A537A73FF60746D67D3769 /* Shared/Resources/Notices.md */;
+		};
+		83F535AD6D71016BB36F3DFC = {
+			isa = PBXBuildFile;
+			fileRef = FD4A460928D3906CF95393FB /* Shared/Resources/PrivacyInfo.xcprivacy */;
+		};
+		C07C0CFC0BF9EE803C9EDBE0 = {
+			isa = PBXBuildFile;
+			fileRef = E105038187438020F8B94363 /* Shared/Resources/Assets.xcassets */;
+		};
+		9264E926C74DB13697263B3E = {
+			isa = PBXBuildFile;
+			fileRef = A300FB26D805454F5F0025AE /* Shared/Core/CompanionContent.swift */;
+		};
+		DBE26C6A54DD58F210F7CB3D = {
+			isa = PBXBuildFile;
+			fileRef = 27CC6E1EFBC2B0A2CDCB5D13 /* Shared/Core/DailyVerse.swift */;
+		};
+		CD651317D2513B1777AE4AAE = {
+			isa = PBXBuildFile;
+			fileRef = F1B1E1C637B9B7E2BAE27ACD /* Shared/Core/Library.swift */;
+		};
+		6EA3BF7C3B3AEBBA25E9595E = {
+			isa = PBXBuildFile;
+			fileRef = 7B9748CC64BE580627756170 /* Shared/Core/Preferences.swift */;
+		};
+		9F610452659CC2602043D2EB = {
+			isa = PBXBuildFile;
+			fileRef = 38196B2A1E6FF2A4EB492BB9 /* Shared/Core/Verse.swift */;
+		};
+		B77BA79A57B5894AED5E6F01 = {
+			isa = PBXBuildFile;
+			fileRef = DC52C5A7F42ADDE560CEFAE2 /* Shared/Playback/AudioController.swift */;
+		};
+		02F3D7EBEA648E09EDCAE3C2 = {
+			isa = PBXBuildFile;
+			fileRef = E34481357B45DDAE7D06EFA7 /* Shared/State/AppStore.swift */;
+		};
+		243491E83B4C7AC26E247690 = {
+			isa = PBXBuildFile;
+			fileRef = B051F3F84B72F3403DE01FC4 /* Shared/UI/AndalStoryView.swift */;
+		};
+		916F792B33ED4E4230774841 = {
+			isa = PBXBuildFile;
+			fileRef = 57613E5A79DE54BC962C56C0 /* Shared/UI/DesignSystem.swift */;
+		};
+		199E94A628AEC1C32CDE0194 = {
+			isa = PBXBuildFile;
+			fileRef = 6CC38F5A887BE05A042370F0 /* Shared/UI/PasuramReaderContent.swift */;
+		};
+		EE5E7E11A72A7CDD0FD7CDE8 = {
+			isa = PBXBuildFile;
+			fileRef = DA98DD150DEA45CF7B0FFD3A /* Shared/UI/ReadingGuideView.swift */;
+		};
+		35263189EA2B73B55F1600D7 = {
+			isa = PBXBuildFile;
+			fileRef = E076C4F97B4463888572A0E9 /* Shared/UI/ReadingSections.swift */;
+		};
+		12B952DA6F02BD6AD8460AF2 = {
+			isa = PBXBuildFile;
+			fileRef = BBFCF62006A0581D298FFA89 /* Shared/UI/YouTubePlayerView.swift */;
+		};
+		9F1A4BA2839B7F29D4FF6C18 = {
+			isa = PBXBuildFile;
+			fileRef = 179DAEF01628F979478B1028 /* Mac/App/BackupPanels.swift */;
+		};
+		24522A183AB34F42C70D0E9A = {
+			isa = PBXBuildFile;
+			fileRef = 185FF2EDEE95DEB2E4B6008B /* Mac/App/HomeView.swift */;
+		};
+		EC79C6DC95106063B8A2B81B = {
+			isa = PBXBuildFile;
+			fileRef = 3FEBCA290448DD55DC6EDCE0 /* Mac/App/ReaderView.swift */;
+		};
+		C56DD5A90F3E4B41BEC111DA = {
+			isa = PBXBuildFile;
+			fileRef = 449ADF6CF4F3DE07B8F16BDE /* Mac/App/RootView.swift */;
+		};
+		E4C822A37D3ADABDD8253B00 = {
+			isa = PBXBuildFile;
+			fileRef = 9572E5717B50CDD985E84B79 /* Mac/App/SettingsView.swift */;
+		};
+		8672A11415A47BC209C4B909 = {
+			isa = PBXBuildFile;
+			fileRef = 0823529079AA38426FE14435 /* Mac/App/ThiruppavaiApp.swift */;
+		};
+		FE82F9D6D6DA53C569D8575F = {
+			isa = PBXBuildFile;
+			fileRef = 9A775412527860FD55A99660 /* Shared/Core/Resources/verses.json */;
+		};
+		9E2EF9D86F07C7710CEFAE50 = {
+			isa = PBXBuildFile;
+			fileRef = 5F2EB953A56B2DEE667C0F76 /* Shared/Core/Resources/readings.json */;
+		};
+		CC1F21B77E5EA5115BDEB830 = {
+			isa = PBXBuildFile;
+			fileRef = 1FA6C0B19EA11A79E8C5FE56 /* Shared/Core/Resources/recordings.json */;
+		};
+		20CBFB5AB6227E116B73E361 = {
+			isa = PBXBuildFile;
+			fileRef = F57E509CFC083F09C3D16BC3 /* Shared/Core/Resources/story.json */;
+		};
+		3B0DD2190225A5725AA7DCF2 = {
+			isa = PBXBuildFile;
+			fileRef = 4A119E7290F05010D1541422 /* Shared/Resources/NotoSerifTamil-Regular.ttf */;
+		};
+		3DBFB7655F2EF1C618AFE5A3 = {
+			isa = PBXBuildFile;
+			fileRef = A92EB27B33F407075A83B2DC /* Shared/Resources/NotoSerifTelugu-Regular.ttf */;
+		};
+		B3F70737C74DC154E26C917E = {
+			isa = PBXBuildFile;
+			fileRef = EB847464324F2E625C9FB6F3 /* Shared/Resources/NotoSerifKannada-Regular.ttf */;
+		};
+		EA2253629448A89CBAC16F12 = {
+			isa = PBXBuildFile;
+			fileRef = 46ACF612AF697842F3A743E7 /* Shared/Resources/NotoSerifMalayalam-Regular.ttf */;
+		};
+		E45BC15FD4CF422A8D2038EA = {
+			isa = PBXBuildFile;
+			fileRef = AFA05D381B69B5DF03A392FA /* Shared/Resources/NotoSerifDevanagari-Regular.ttf */;
+		};
+		CB81363CA796E83EE82E5A71 = {
+			isa = PBXBuildFile;
+			fileRef = 83A537A73FF60746D67D3769 /* Shared/Resources/Notices.md */;
+		};
+		18EE436F6CE54660B00717DC = {
+			isa = PBXBuildFile;
+			fileRef = FD4A460928D3906CF95393FB /* Shared/Resources/PrivacyInfo.xcprivacy */;
+		};
+		206D72FB2D7ECC10F546052D = {
+			isa = PBXBuildFile;
+			fileRef = E105038187438020F8B94363 /* Shared/Resources/Assets.xcassets */;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A300FB26D805454F5F0025AE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Core/CompanionContent.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		27CC6E1EFBC2B0A2CDCB5D13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Core/DailyVerse.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F1B1E1C637B9B7E2BAE27ACD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Core/Library.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B9748CC64BE580627756170 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Core/Preferences.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		38196B2A1E6FF2A4EB492BB9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Core/Verse.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		DC52C5A7F42ADDE560CEFAE2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/Playback/AudioController.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E34481357B45DDAE7D06EFA7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/State/AppStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		B051F3F84B72F3403DE01FC4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/AndalStoryView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		57613E5A79DE54BC962C56C0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/DesignSystem.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CC38F5A887BE05A042370F0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/PasuramReaderContent.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		DA98DD150DEA45CF7B0FFD3A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/ReadingGuideView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E076C4F97B4463888572A0E9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/ReadingSections.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		BBFCF62006A0581D298FFA89 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Shared/UI/YouTubePlayerView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		229CD54D4B877657A525F8FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = iOS/App/MobileHomeView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		CB16288E3DEA9006763C5C0A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = iOS/App/MobileReaderView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6F84BE034519632A2E1B4C62 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = iOS/App/MobileRootView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CCCA61B38612821FF53CB46 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = iOS/App/MobileSettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		99DD88982E5DD4F6A85E6037 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = iOS/App/ThiruppavaiIOSApp.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		9A775412527860FD55A99660 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = Shared/Core/Resources/verses.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		5F2EB953A56B2DEE667C0F76 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = Shared/Core/Resources/readings.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		1FA6C0B19EA11A79E8C5FE56 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = Shared/Core/Resources/recordings.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		F57E509CFC083F09C3D16BC3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = Shared/Core/Resources/story.json;
+			sourceTree = SOURCE_ROOT;
+		};
+		4A119E7290F05010D1541422 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Shared/Resources/NotoSerifTamil-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		A92EB27B33F407075A83B2DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Shared/Resources/NotoSerifTelugu-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB847464324F2E625C9FB6F3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Shared/Resources/NotoSerifKannada-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		46ACF612AF697842F3A743E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Shared/Resources/NotoSerifMalayalam-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		AFA05D381B69B5DF03A392FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "Shared/Resources/NotoSerifDevanagari-Regular.ttf";
+			sourceTree = SOURCE_ROOT;
+		};
+		83A537A73FF60746D67D3769 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Shared/Resources/Notices.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		FD4A460928D3906CF95393FB = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = Shared/Resources/PrivacyInfo.xcprivacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		E105038187438020F8B94363 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Shared/Resources/Assets.xcassets;
+			sourceTree = SOURCE_ROOT;
+		};
+		7D59D1AD975A0F4E6B01D51E = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = iOS/Config/Debug.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		49699122F9639AEC583B6601 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = iOS/Config/Release.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C822B627EA9415000BAABB3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = iOS/Config/Base.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		26B24E420282747686C4FCFF = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = iOS/Config/Info.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB110F7A4EA68E96ABB0138F = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = iOS/Config/Signing.local.xcconfig.example;
+			sourceTree = SOURCE_ROOT;
+		};
+		7BF5FB92191A9303B82B18F6 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Thiruppavai.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		179DAEF01628F979478B1028 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/BackupPanels.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		185FF2EDEE95DEB2E4B6008B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/HomeView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FEBCA290448DD55DC6EDCE0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/ReaderView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		449ADF6CF4F3DE07B8F16BDE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/RootView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		9572E5717B50CDD985E84B79 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/SettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0823529079AA38426FE14435 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Mac/App/ThiruppavaiApp.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		63DEF714A0E4FF7C45529E99 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Mac/Config/Debug.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		A87BCBB5A3A1578B0F886A80 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Mac/Config/Release.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		64181348ADE0190C5C3A6257 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Mac/Config/Base.xcconfig;
+			sourceTree = SOURCE_ROOT;
+		};
+		67CA3C70B965DBAEC64CB4CB = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Mac/Config/Info.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+		D29E1B8C73688C14AD792871 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Mac/Config/Signing.local.xcconfig.example;
+			sourceTree = SOURCE_ROOT;
+		};
+		8EA93F6F2E93ABCCF66F6579 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Mac/Config/Thiruppavai.entitlements;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1F533ABF9A511F7022B3999 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Thiruppavai.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEFE46CEB04D83E7C1104F59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Package.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		00D7972E8FBA75441E0CD02D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Tests/CoreTests.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		6945B0C7677021DFD3DCD6C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = README.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		DE5BE4BE730C4F7A64ED0F45 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Docs/TESTING.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		9496F072042D5EF74C4E6CE1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = "Docs/IOS-DISTRIBUTION.md";
+			sourceTree = SOURCE_ROOT;
+		};
+		F427B82D95334E6A36F6F545 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = Docs/ARCHITECTURE.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		AEB68825FF5D4BAFAFEB6F16 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = "Docs/MAC-RELEASING.md";
+			sourceTree = SOURCE_ROOT;
+		};
+		E886D083D9B647C05D59F132 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = "Docs/AUDIO-LICENSING.md";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A28A1C21B12373CBBDC801B = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DFCFFB6A7858967DB4803C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99528C421292FC5D04C88CE3 = {
+			isa = PBXGroup;
+			children = (
+				A300FB26D805454F5F0025AE /* Shared/Core/CompanionContent.swift */,
+				27CC6E1EFBC2B0A2CDCB5D13 /* Shared/Core/DailyVerse.swift */,
+				F1B1E1C637B9B7E2BAE27ACD /* Shared/Core/Library.swift */,
+				7B9748CC64BE580627756170 /* Shared/Core/Preferences.swift */,
+				38196B2A1E6FF2A4EB492BB9 /* Shared/Core/Verse.swift */,
+				DC52C5A7F42ADDE560CEFAE2 /* Shared/Playback/AudioController.swift */,
+				E34481357B45DDAE7D06EFA7 /* Shared/State/AppStore.swift */,
+				B051F3F84B72F3403DE01FC4 /* Shared/UI/AndalStoryView.swift */,
+				57613E5A79DE54BC962C56C0 /* Shared/UI/DesignSystem.swift */,
+				6CC38F5A887BE05A042370F0 /* Shared/UI/PasuramReaderContent.swift */,
+				DA98DD150DEA45CF7B0FFD3A /* Shared/UI/ReadingGuideView.swift */,
+				E076C4F97B4463888572A0E9 /* Shared/UI/ReadingSections.swift */,
+				BBFCF62006A0581D298FFA89 /* Shared/UI/YouTubePlayerView.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		824348B0FAD23984BC10FFEC = {
+			isa = PBXGroup;
+			children = (
+				229CD54D4B877657A525F8FF /* iOS/App/MobileHomeView.swift */,
+				CB16288E3DEA9006763C5C0A /* iOS/App/MobileReaderView.swift */,
+				6F84BE034519632A2E1B4C62 /* iOS/App/MobileRootView.swift */,
+				8CCCA61B38612821FF53CB46 /* iOS/App/MobileSettingsView.swift */,
+				99DD88982E5DD4F6A85E6037 /* iOS/App/ThiruppavaiIOSApp.swift */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEFE1FDD41C6EC40BADD4365 = {
+			isa = PBXGroup;
+			children = (
+				179DAEF01628F979478B1028 /* Mac/App/BackupPanels.swift */,
+				185FF2EDEE95DEB2E4B6008B /* Mac/App/HomeView.swift */,
+				3FEBCA290448DD55DC6EDCE0 /* Mac/App/ReaderView.swift */,
+				449ADF6CF4F3DE07B8F16BDE /* Mac/App/RootView.swift */,
+				9572E5717B50CDD985E84B79 /* Mac/App/SettingsView.swift */,
+				0823529079AA38426FE14435 /* Mac/App/ThiruppavaiApp.swift */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		FE2ADACCD3A6792E1F63A49A = {
+			isa = PBXGroup;
+			children = (
+				9A775412527860FD55A99660 /* Shared/Core/Resources/verses.json */,
+				5F2EB953A56B2DEE667C0F76 /* Shared/Core/Resources/readings.json */,
+				1FA6C0B19EA11A79E8C5FE56 /* Shared/Core/Resources/recordings.json */,
+				F57E509CFC083F09C3D16BC3 /* Shared/Core/Resources/story.json */,
+				4A119E7290F05010D1541422 /* Shared/Resources/NotoSerifTamil-Regular.ttf */,
+				A92EB27B33F407075A83B2DC /* Shared/Resources/NotoSerifTelugu-Regular.ttf */,
+				EB847464324F2E625C9FB6F3 /* Shared/Resources/NotoSerifKannada-Regular.ttf */,
+				46ACF612AF697842F3A743E7 /* Shared/Resources/NotoSerifMalayalam-Regular.ttf */,
+				AFA05D381B69B5DF03A392FA /* Shared/Resources/NotoSerifDevanagari-Regular.ttf */,
+				83A537A73FF60746D67D3769 /* Shared/Resources/Notices.md */,
+				FD4A460928D3906CF95393FB /* Shared/Resources/PrivacyInfo.xcprivacy */,
+				E105038187438020F8B94363 /* Shared/Resources/Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC38C7014F8B32E8A6A40DB8 = {
+			isa = PBXGroup;
+			children = (
+				7D59D1AD975A0F4E6B01D51E /* iOS/Config/Debug.xcconfig */,
+				49699122F9639AEC583B6601 /* iOS/Config/Release.xcconfig */,
+				0C822B627EA9415000BAABB3 /* iOS/Config/Base.xcconfig */,
+				26B24E420282747686C4FCFF /* iOS/Config/Info.plist */,
+				AB110F7A4EA68E96ABB0138F /* iOS/Config/Signing.local.xcconfig.example */,
+				63DEF714A0E4FF7C45529E99 /* Mac/Config/Debug.xcconfig */,
+				A87BCBB5A3A1578B0F886A80 /* Mac/Config/Release.xcconfig */,
+				64181348ADE0190C5C3A6257 /* Mac/Config/Base.xcconfig */,
+				67CA3C70B965DBAEC64CB4CB /* Mac/Config/Info.plist */,
+				D29E1B8C73688C14AD792871 /* Mac/Config/Signing.local.xcconfig.example */,
+				8EA93F6F2E93ABCCF66F6579 /* Mac/Config/Thiruppavai.entitlements */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		ECA627A49A3110D6C5119794 = {
+			isa = PBXGroup;
+			children = (
+				00D7972E8FBA75441E0CD02D /* Tests/CoreTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		148E87479445DABE4A1395ED = {
+			isa = PBXGroup;
+			children = (
+				CEFE46CEB04D83E7C1104F59 /* Package.swift */,
+				6945B0C7677021DFD3DCD6C8 /* README.md */,
+				DE5BE4BE730C4F7A64ED0F45 /* Docs/TESTING.md */,
+				9496F072042D5EF74C4E6CE1 /* Docs/IOS-DISTRIBUTION.md */,
+				F427B82D95334E6A36F6F545 /* Docs/ARCHITECTURE.md */,
+				AEB68825FF5D4BAFAFEB6F16 /* Docs/MAC-RELEASING.md */,
+				E886D083D9B647C05D59F132 /* Docs/AUDIO-LICENSING.md */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		2FD18751EE4EA086B199BB41 = {
+			isa = PBXGroup;
+			children = (
+				7BF5FB92191A9303B82B18F6 /* Thiruppavai.app */,
+				D1F533ABF9A511F7022B3999 /* Thiruppavai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C3AFDC098D717354C525C52 = {
+			isa = PBXGroup;
+			children = (
+				99528C421292FC5D04C88CE3 /* Shared */,
+				824348B0FAD23984BC10FFEC /* iOS */,
+				CEFE1FDD41C6EC40BADD4365 /* Mac */,
+				FE2ADACCD3A6792E1F63A49A /* Resources */,
+				BC38C7014F8B32E8A6A40DB8 /* Configuration */,
+				ECA627A49A3110D6C5119794 /* Tests */,
+				148E87479445DABE4A1395ED /* Documentation */,
+				2FD18751EE4EA086B199BB41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489C67270FEF97693338133E = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7644BDFBF9D792FB97CDE8 /* XCConfigurationList */;
+			buildPhases = (
+				2F0FDACD5A45FEC50BF20D2A /* PBXSourcesBuildPhase */,
+				8A28A1C21B12373CBBDC801B /* PBXFrameworksBuildPhase */,
+				820791289A890160BC52E5D5 /* PBXResourcesBuildPhase */,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = "Thiruppavai-iOS";
+			productName = Thiruppavai;
+			productReference = 7BF5FB92191A9303B82B18F6 /* Thiruppavai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252A1773411C278F1A7F5F03 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22F29CA614C7E6A16378BEF /* XCConfigurationList */;
+			buildPhases = (
+				00771A235745FB0770F778A3 /* PBXSourcesBuildPhase */,
+				A5DFCFFB6A7858967DB4803C /* PBXFrameworksBuildPhase */,
+				D00BAAA1B69B146DD7975324 /* PBXResourcesBuildPhase */,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = "Thiruppavai-Mac";
+			productName = Thiruppavai;
+			productReference = D1F533ABF9A511F7022B3999 /* Thiruppavai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2912518E1E85AA16A8C0DB16 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					489C67270FEF97693338133E = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+					252A1773411C278F1A7F5F03 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D33FD88FA6469F256F6B1DDF /* XCConfigurationList */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C3AFDC098D717354C525C52 /* PBXGroup */;
+			productRefGroup = 2FD18751EE4EA086B199BB41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489C67270FEF97693338133E /* Thiruppavai-iOS */,
+				252A1773411C278F1A7F5F03 /* Thiruppavai-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820791289A890160BC52E5D5 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD7B7125479F515D79FAF27 /* PBXBuildFile */,
+				15B201A88CCDA1E1B8A41F10 /* PBXBuildFile */,
+				EA723B97CBA10FB8235B8EF0 /* PBXBuildFile */,
+				911A63073CC9ACF3BAADF5A6 /* PBXBuildFile */,
+				B5B7D62140AD1E62D519610C /* PBXBuildFile */,
+				87E0CBB5EC11A9BBA285D903 /* PBXBuildFile */,
+				841FE150D396296EF59E85B1 /* PBXBuildFile */,
+				F41531325C51B0CBA44AA53F /* PBXBuildFile */,
+				EABB56A61B1D7F40B83D4348 /* PBXBuildFile */,
+				49A43062077CE63AED51C66D /* PBXBuildFile */,
+				83F535AD6D71016BB36F3DFC /* PBXBuildFile */,
+				C07C0CFC0BF9EE803C9EDBE0 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00BAAA1B69B146DD7975324 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE82F9D6D6DA53C569D8575F /* PBXBuildFile */,
+				9E2EF9D86F07C7710CEFAE50 /* PBXBuildFile */,
+				CC1F21B77E5EA5115BDEB830 /* PBXBuildFile */,
+				20CBFB5AB6227E116B73E361 /* PBXBuildFile */,
+				3B0DD2190225A5725AA7DCF2 /* PBXBuildFile */,
+				3DBFB7655F2EF1C618AFE5A3 /* PBXBuildFile */,
+				B3F70737C74DC154E26C917E /* PBXBuildFile */,
+				EA2253629448A89CBAC16F12 /* PBXBuildFile */,
+				E45BC15FD4CF422A8D2038EA /* PBXBuildFile */,
+				CB81363CA796E83EE82E5A71 /* PBXBuildFile */,
+				18EE436F6CE54660B00717DC /* PBXBuildFile */,
+				206D72FB2D7ECC10F546052D /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0FDACD5A45FEC50BF20D2A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A986446408669BB5E8CD2547 /* PBXBuildFile */,
+				EF0545E442FFD8E7CA360B02 /* PBXBuildFile */,
+				0C0A362CB7B0731E3A2BF487 /* PBXBuildFile */,
+				134614FEF63D0AEF4985B874 /* PBXBuildFile */,
+				6A5E55E4C0813B6C180496AE /* PBXBuildFile */,
+				7CA7D9522CF42912953147F6 /* PBXBuildFile */,
+				17D2E2B74E70F82D7211DD56 /* PBXBuildFile */,
+				5D014B84B23098BF402B6966 /* PBXBuildFile */,
+				D3A38DDBC7083076DA43C6E9 /* PBXBuildFile */,
+				43C48C921FCA28F0336B1C1E /* PBXBuildFile */,
+				9955C07AB0E2042E49B985F6 /* PBXBuildFile */,
+				84DC0B1162F67A92C8BB5593 /* PBXBuildFile */,
+				FDF5571C2E625FFD97B60930 /* PBXBuildFile */,
+				BE7BD9128E35E3345892001B /* PBXBuildFile */,
+				F2476955C8BB861C8BDEC818 /* PBXBuildFile */,
+				472853D84BF73A76656C01F6 /* PBXBuildFile */,
+				ADFFD4300A69F81D4DBEDD2B /* PBXBuildFile */,
+				23BE5D1453EBA0FD3F681956 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00771A235745FB0770F778A3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9264E926C74DB13697263B3E /* PBXBuildFile */,
+				DBE26C6A54DD58F210F7CB3D /* PBXBuildFile */,
+				CD651317D2513B1777AE4AAE /* PBXBuildFile */,
+				6EA3BF7C3B3AEBBA25E9595E /* PBXBuildFile */,
+				9F610452659CC2602043D2EB /* PBXBuildFile */,
+				B77BA79A57B5894AED5E6F01 /* PBXBuildFile */,
+				02F3D7EBEA648E09EDCAE3C2 /* PBXBuildFile */,
+				243491E83B4C7AC26E247690 /* PBXBuildFile */,
+				916F792B33ED4E4230774841 /* PBXBuildFile */,
+				199E94A628AEC1C32CDE0194 /* PBXBuildFile */,
+				EE5E7E11A72A7CDD0FD7CDE8 /* PBXBuildFile */,
+				35263189EA2B73B55F1600D7 /* PBXBuildFile */,
+				12B952DA6F02BD6AD8460AF2 /* PBXBuildFile */,
+				9F1A4BA2839B7F29D4FF6C18 /* PBXBuildFile */,
+				24522A183AB34F42C70D0E9A /* PBXBuildFile */,
+				EC79C6DC95106063B8A2B81B /* PBXBuildFile */,
+				C56DD5A90F3E4B41BEC111DA /* PBXBuildFile */,
+				E4C822A37D3ADABDD8253B00 /* PBXBuildFile */,
+				8672A11415A47BC209C4B909 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64D470A14646B57802EDE4CB = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D59D1AD975A0F4E6B01D51E /* iOS/Config/Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = Thiruppavai;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		5BE8C6EC5DC2109E4C7987A9 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49699122F9639AEC583B6601 /* iOS/Config/Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = Thiruppavai;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		E35740C585C379EF738353AE = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DEF714A0E4FF7C45529E99 /* Mac/Config/Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = Thiruppavai;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		733B476F55F094ADE9C8AD0E = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87BCBB5A3A1578B0F886A80 /* Mac/Config/Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = Thiruppavai;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		1E02487B01242C0410D3C1E9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SWIFT_VERSION = 5.0;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			};
+			name = Debug;
+		};
+		3871A5C078D9C1D874C4A17E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SWIFT_VERSION = 5.0;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC7644BDFBF9D792FB97CDE8 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D470A14646B57802EDE4CB /* Debug */,
+				5BE8C6EC5DC2109E4C7987A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22F29CA614C7E6A16378BEF = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35740C585C379EF738353AE /* Debug */,
+				733B476F55F094ADE9C8AD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33FD88FA6469F256F6B1DDF = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E02487B01242C0410D3C1E9 /* Debug */,
+				3871A5C078D9C1D874C4A17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2912518E1E85AA16A8C0DB16 /* Project object */;
+}
